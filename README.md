@@ -40,7 +40,7 @@ SAMPLE OUTPUT
 0
 1
 
-Explanation
+Explanation:
 For the first query we can add 1 to the 1st, 3rd and, 4th numbers.
 For the second and third query, we don't need to add as the Bitwise AND is already > 0.
 For the last query, we can add 1 to 4th number.
