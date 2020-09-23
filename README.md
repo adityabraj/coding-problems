@@ -24,3 +24,24 @@ Constraints
 1 <= A[i] <= 10^9
 1 <= Q <= 10^5
 1 <= l <= r <= N
+
+SAMPLE INPUT           
+5                     
+4 3 2 4 1         
+4
+1 4             
+2 3
+4 4
+4 5
+
+SAMPLE OUTPUT
+3
+0
+0
+1
+
+Explanation
+For the first query we can add 1 to the 1st, 3rd and, 4th numbers.
+For the second and third query, we don't need to add as the Bitwise AND is already > 0.
+For the last query, we can add 1 to 4th number.
+
